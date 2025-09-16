@@ -1,24 +1,23 @@
                                            // JP←US
-#define DOUBLE_QUOTES     AT               // " ← @
-#define AMPERSAND         CARET            // & ← ^
-#define SINGLE_QUOTE      AMPERSAND        // ' ← &
-#define RIGHT_PARENTHESIS LEFT_PARENTHESIS // ) ← (
-#define LEFT_PARENTHESIS  ASTERISK         // ( ← *
+#define BACKSLASH         0x89             // ¥ ←
+#define UNDERSCORE        LS(0x87)         // _ ←
+#define PIPE              LS(0x89)         // | ←
 #define EQUAL             UNDERSCORE       // = ← _
 #define CARET             EQUAL            // ^ ← =
+#define AMPERSAND         CARET            // & ← ^
+#define SINGLE_QUOTE      AMPERSAND        // ' ← &
+#define COLON             SINGLE_QUOTE     // : ← '
+#define KP_PLUS           COLON            // + ← :
 #define TILDE             KP_PLUS          // ~ ← +
-#define BACKSLASH         0x89             // ¥ ←
-#define PIPE              LS(0x89)         // | ←
-#define AT                LEFT_BRACKET     // @ ← [
-#define BACKQUOTE         LEFT_BRACE       // ` ← {
+#define RIGHT_BRACKET     BACKSLASH        // ] ← \
+#define RIGHT_BRACE       PIPE             // } ← |
 #define LEFT_BRACKET      RIGHT_BRACKET    // [ ← ]
 #define LEFT_BRACE        RIGHT_BRACE      // { ← }
-#define KP_PLUS           COLON            // + ← :
-#define COLON             SINGLE_QUOTE     // : ← '
+#define AT                LEFT_BRACKET     // @ ← [
+#define DOUBLE_QUOTES     AT               // " ← @
 #define ASTERISK          DOUBLE_QUOTES    // * ← "
-#define RIGHT_BRACKET     BACKSLASH        // ] ← \
-#define RIGHT_BRACE       PIPE             // { ← |
-#define UNDERSCORE        LS(0x87)         // _ ←
+#define LEFT_PARENTHESIS  ASTERISK         // ( ← *
+#define RIGHT_PARENTHESIS LEFT_PARENTHESIS // ) ← (
 
 
 / {
