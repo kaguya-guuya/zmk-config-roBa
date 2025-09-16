@@ -1,3 +1,26 @@
+                                           // JP←US
+#define DOUBLE_QUOTES     AT               // " ← @
+#define AMPERSAND         CARET            // & ← ^
+#define SINGLE_QUOTE      AMPERSAND        // ' ← &
+#define RIGHT_PARENTHESIS LEFT_PARENTHESIS // ) ← (
+#define LEFT_PARENTHESIS  ASTERISK         // ( ← *
+#define EQUAL             UNDERSCORE       // = ← _
+#define CARET             EQUAL            // ^ ← =
+#define TILDE             KP_PLUS          // ~ ← +
+#define BACKSLASH         0x89             // ¥ ←
+#define PIPE              LS(0x89)         // | ←
+#define AT                LEFT_BRACKET     // @ ← [
+#define BACKQUOTE         LEFT_BRACE       // ` ← {
+#define LEFT_BRACKET      RIGHT_BRACKET    // [ ← ]
+#define LEFT_BRACE        RIGHT_BRACE      // { ← }
+#define KP_PLUS           COLON            // + ← :
+#define COLON             SINGLE_QUOTE     // : ← '
+#define ASTERISK          DOUBLE_QUOTES    // * ← "
+#define RIGHT_BRACKET     BACKSLASH        // ] ← \
+#define RIGHT_BRACE       PIPE             // { ← |
+#define UNDERSCORE        LS(0x87)         // _ ←
+
+
 / {
     behaviors {
         JP_KP_NUMBER_1: jp_kp_number_1 {
