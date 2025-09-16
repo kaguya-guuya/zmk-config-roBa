@@ -100,7 +100,7 @@
             bindings = <
 &kp F12  &kp F7     &kp F8  &kp F9  &kp LEFT_BRACE                                 &kp RIGHT_BRACE        &JP_KP_NUMBER_7  &JP_KP_NUMBER_8  &JP_KP_NUMBER_9  &kp PLUS
 &kp F11  &kp F4     &kp F5  &kp F6  &JP_LEFT_BRACKET      &trans      &trans       &JP_RIGHT_BRACKET      &JP_KP_NUMBER_4  &JP_KP_NUMBER_5  &JP_KP_NUMBER_6  &JP_MINUS
-&kp F10  &kp F1     &kp F2  &kp F3  &kp LEFT_PARENTHESIS  &trans      &trans       &kp RIGHT_PARENTHESIS  &JP_KP_NUMBER_1  &JP_KP_NUMBER_2  &JP_KP_NUMBER_3  &kp ASTERISK
+&kp F10  &kp F1     &kp F2  &kp F3  &kp LEFT_PARENTHESIS  &trans      &trans       &kp RIGHT_PARENTHESIS  &kp JP_KP_NUMBER_1  &JP_KP_NUMBER_2  &JP_KP_NUMBER_3  &kp ASTERISK
 &trans   &kp LCTRL  &trans  &trans  &trans                &trans      &lt 1 EQUAL  &JP_PERIOD                                                                 &JP_SLASH
             >;
         };
