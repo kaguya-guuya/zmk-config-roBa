@@ -101,7 +101,7 @@
 &kp F12  &kp F7     &kp F8  &kp F9  &kp LEFT_BRACE                                 &kp RIGHT_BRACE        &JP_KP_NUMBER_7  &JP_KP_NUMBER_8  &JP_KP_NUMBER_9  &kp PLUS
 &kp F11  &kp F4     &kp F5  &kp F6  &JP_LEFT_BRACKET      &trans      &trans       &JP_RIGHT_BRACKET      &JP_KP_NUMBER_4  &JP_KP_NUMBER_5  &JP_KP_NUMBER_6  &JP_MINUS
 &kp F10  &kp F1     &kp F2  &kp F3  &kp LEFT_PARENTHESIS  &trans      &trans       &kp RIGHT_PARENTHESIS  &JP_KP_NUMBER_1  &JP_KP_NUMBER_2  &JP_KP_NUMBER_3  &kp ASTERISK
-&trans   &kp LCTRL  &trans  &trans  &trans                &trans      &lt 1 EQUAL  &JP_PERIOD                                                                 &JP_SLASH
+&trans   &kp LCTRL  &trans  &trans  &trans                &trans      &lt 1 EQUAL  &JP_PERIOD                                                                &JP_SLASH
             >;
         };
 
@@ -116,10 +116,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q         &to_layer_0 W      &to_layer_0 E           &to_layer_0 R    &to_layer_0 T                                                              &to_layer_0 Y         &to_layer_0 U  &to_layer_0 I      &to_layer_0 O       &to_layer_0 P
-&to_layer_0 A         &to_layer_0 S      &to_layer_0 D           &to_layer_0 F    &to_layer_0 G           &to_layer_0 LS(LG(S))      &to_layer_0 LANGUAGE_5  &to_layer_0 H         &mkp MB1       &mkp MB3           &mkp MB2            &to_layer_0 MINUS
-&to_layer_0 Z         &to_layer_0 X      &to_layer_0 C           &to_layer_0 V    &to_layer_0 B           &to_layer_0 DELETE         &to_layer_0 BACKSPACE   &to_layer_0 N         &mkp MB4       &to_layer_0 COMMA  &mkp MB5            &to_layer_0 BACKSLASH
-&to_layer_0 LEFT_WIN  &to_layer_0 LCTRL  &to_layer_0 LEFT_SHIFT  &to_layer_0 TAB  &to_layer_0 UNDERSCORE  &to_layer_0 SPACE          &to_layer_0 ENTER       &to_layer_0 LEFT_ALT                                                        &to_layer_0 SLASH
+&to_layer_0 Q         &to_layer_0 W      &to_layer_0 E           &to_layer_0 R    &to_layer_0 T                                                              &to_layer_0 Y         &to_layer_0 U  &to_layer_0 I      &to_layer_0 O  &to_layer_0 P
+&to_layer_0 A         &to_layer_0 S      &to_layer_0 D           &to_layer_0 F    &to_layer_0 G           &to_layer_0 LS(LG(S))      &to_layer_0 LANGUAGE_5  &to_layer_0 H         &mkp MB1       &mkp MB3           &mkp MB2       &to_layer_0 MINUS
+&to_layer_0 Z         &to_layer_0 X      &to_layer_0 C           &to_layer_0 V    &to_layer_0 B           &to_layer_0 DELETE         &to_layer_0 BACKSPACE   &to_layer_0 N         &mkp MB4       &to_layer_0 COMMA  &mkp MB5       &to_layer_0 BACKSLASH
+&to_layer_0 LEFT_WIN  &to_layer_0 LCTRL  &to_layer_0 LEFT_SHIFT  &to_layer_0 TAB  &to_layer_0 UNDERSCORE  &to_layer_0 SPACE          &to_layer_0 ENTER       &to_layer_0 LEFT_ALT                                                   &to_layer_0 SLASH
             >;
         };
 
@@ -138,6 +138,15 @@
 &none               &none  &none  &none  &none  &none            &none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &none               &none  &none  &none  &none  &bootloader      &bootloader  &none         &none         &none         &none         &bt BT_CLR
 &none               &none  &none  &none  &none  &none            &none        &none                                                   &bt BT_CLR_ALL
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
