@@ -94,7 +94,7 @@ layers:
   - F8
   - F9
   - Sft+0x30
-  - '}'
+  - Sft+0x31
   - '7'
   - '8'
   - '9'
@@ -309,42 +309,42 @@ layers:
   - ''
   - BT CLR ALL
   7_test:
-  - '0x2E'
-  - '0x2F'
-  - '0x30'
-  - '0x34'
-  - '0x31'
+  - '!'
+  - '#'
+  - $
+  - '%'
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
-  - '0x89'
-  - Sft+0x1F
-  - Sft+0x23
-  - Sft+0x24
-  - Sft+0x25
-  - Sft+0x26
+  - Sft+0x31
+  - ;
+  - ''''
+  - '`'
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+0x2E
-  - Sft+0x30
-  - Sft+0x33
-  - Sft+0x34
-  - '}'
-  - Sft+0x2D
+  - {t: ▽, type: trans}
+  - '?'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+0x87
-  - Sft+0x89
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
