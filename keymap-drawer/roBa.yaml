@@ -47,7 +47,7 @@ layers:
   SHORTCUT_ARROW:
   - {t: ESC, h: Sft+Ctl+ESCAPE}
   - Ctl+W
-  - {t: '0x57', h: Sft+Gui+S}
+  - {t: Sft+0x2E, h: Sft+Gui+S}
   - Ctl+R
   - Ctl+T
   - {t: ▽, type: trans}
@@ -94,7 +94,7 @@ layers:
   - F8
   - F9
   - Sft+0x30
-  - Sft+0x31
+  - '}'
   - '7'
   - '8'
   - '9'
@@ -166,7 +166,7 @@ layers:
   - '!'
   - Sft+0x1F
   - '#'
-  - '0x57'
+  - Sft+0x2E
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -331,11 +331,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0x57'
+  - Sft+0x2E
   - Sft+0x30
   - Sft+0x33
   - Sft+0x34
-  - Sft+0x31
+  - '}'
   - Sft+0x2D
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
