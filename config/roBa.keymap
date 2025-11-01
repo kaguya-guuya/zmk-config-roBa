@@ -18,7 +18,10 @@
 #define LEFT_BRACKET       0x30      // [ ← ]
 #define LEFT_BRACE         LS(0x30)  // { ← }
 #define RIGHT_BRACKET      0x31      // ] ← \
-#define RIGHT_BRACE        LS(0x31)  // } ← |
+
+// #define RIGHT_BRACE        LS(0x31)  // } ← |
+// } の入れ替えが正常動作しないため、コメントアウト
+
 #define PLUS               LS(0x33)  // + ← :
 #define COLON              0x34      // : ← '
 #define ASTERISK           LS(0x34)  // * ← "
@@ -119,7 +122,7 @@
 
         NUM {
             bindings = <
-&kp F12  &kp F7  &kp F8  &kp F9  &kp LEFT_BRACE                                                 &kp RIGHT_BRACE        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
+&kp F12  &kp F7  &kp F8  &kp F9  &kp LEFT_BRACE                                                 &kp LS(RIGHT_BRACKET)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
 &kp F11  &kp F4  &kp F5  &kp F6  &kp LEFT_BRACKET      &trans                      &trans       &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
 &kp F10  &kp F1  &kp F2  &kp F3  &kp LEFT_PARENTHESIS  &kp NUMBER_0                &kp PERIOD   &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
 &trans   &trans  &trans  &trans  &lt 3 UNDERSCORE      &lt_to_layer_0 2 SPACE      &lt 1 EQUAL  &kp LEFT_ALT                                                     &kp SLASH
