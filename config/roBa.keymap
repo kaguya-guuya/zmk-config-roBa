@@ -22,6 +22,7 @@
 #define RIGHT_BRACE        LS(0x31)  // } ← |
 // } の入れ替えが正常動作しないため、コメントアウト
 
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
