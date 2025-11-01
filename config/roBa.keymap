@@ -5,6 +5,14 @@
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
+#define CARET              0x2E      // ^ ← =
+#define TILDE              LS(0x2E)  // ~ ← +
+#define AT_SIGN            0x2F      // @ ← [
+#define GRAVE              LS(0x2F)  // ` ← {
+#define LEFT_BRACKET       0x30      // [ ← ]
+#define LEFT_BRACE         LS(0x30)  // { ← }
+#define RIGHT_BRACKET      0x31      // ] ← \
+
 #define RIGHT_BRACE        LS(0x31)  // } ← |
 // } の入れ替えが正常動作しないため、コメントアウト
 
