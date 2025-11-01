@@ -6,8 +6,6 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 #define LANGUAGE_4  LANGUAGE_1  // ひらがな
 #define LANGUAGE_5  GRAVE       // 半角/全角
-
-
 #define DOUBLE_QUOTES      LS(0x1F)  // " ← @
 #define AMPERSAND          LS(0x23)  // & ← ^
 #define SINGLE_QUOTE       LS(0x24)  // ' ← &
@@ -168,10 +166,10 @@
 
         layer_7_test {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp EXCLAMATION  &kp HASH       &kp DOLLAR      &kp PERCENT  &kp MINUS                      &trans  &trans  &trans  &trans  &trans
+&kp RIGHT_BRACE  &kp SEMICOLON  &kp APOSTROPHE  &kp GRAVE    &kp SLASH  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp QUESTION     &trans         &trans          &trans       &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans         &trans          &trans       &trans     &trans      &trans  &trans                          &trans
             >;
         };
     };
