@@ -5,7 +5,7 @@
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
-#define RIGHT_BRACE  PIPE  // } ← |
+#define RIGHT_BRACE  LS(0x31)  // } ← |
 
 &mt {
     flavor = "balanced";
