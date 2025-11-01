@@ -23,7 +23,6 @@
 #define PLUS               LS(0x33)  // + ← :
 #define COLON              0x34      // : ← '
 #define ASTERISK           LS(0x34)  // * ← "
-#define RIGHT_BRACE        LS(0x64)  // } ← |
 #define UNDERSCORE         LS(0x87)  // _ ←
 #define BACKSLASH          0x89      // ¥ ←
 #define PIPE               LS(0x89)  // | ←
