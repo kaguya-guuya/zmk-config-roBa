@@ -169,7 +169,7 @@
             bindings = <
 &kp EXCLAMATION  &kp HASH       &kp DOLLAR      &kp PERCENT  &kp MINUS                      &trans  &trans  &trans  &trans  &trans
 &kp RIGHT_BRACE  &kp SEMICOLON  &kp APOSTROPHE  &kp GRAVE    &kp SLASH  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp QUESTION     &PIPE          &trans          &trans       &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp QUESTION     &kp PIPE       &kp 0xC9        &trans       &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans           &trans         &trans          &trans       &trans     &trans      &trans  &trans                          &trans
             >;
         };
