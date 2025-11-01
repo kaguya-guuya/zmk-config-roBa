@@ -169,10 +169,10 @@
 
         layer_7_test {
             bindings = <
-&kp DOUBLE_QUOTES  &kp AMPERSAND   &kp SINGLE_QUOTE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                           &trans  &trans  &trans  &trans  &trans
-&kp EQUAL          &kp CARET       &kp TILDE          &kp AT_SIGN           &kp GRAVE              &trans           &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_BRACKET   &kp LEFT_BRACE  &kp RIGHT_BRACKET  &RIGHT_BRACE          &PLUS                  &COLON           &trans  &trans  &trans  &trans  &trans  &trans
-&ASTERISK          &LANGUAGE_5     &UNDERSCORE        &BACKSLASH            &PIPE                  &LANGUAGE_4      &trans  &trans                          &trans
+&kp DOUBLE_QUOTES  &kp AMPERSAND   &kp SINGLE_QUOTE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                              &trans  &trans  &trans  &trans  &trans
+&kp EQUAL          &kp CARET       &kp TILDE          &kp AT_SIGN           &kp GRAVE              &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_BRACKET   &kp LEFT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp PLUS               &kp COLON           &trans  &trans  &trans  &trans  &trans  &trans
+&kp ASTERISK       &kp LANGUAGE_5  &kp UNDERSCORE     &kp BACKSLASH         &kp PIPE               &kp LANGUAGE_4      &trans  &trans                          &trans
             >;
         };
     };
